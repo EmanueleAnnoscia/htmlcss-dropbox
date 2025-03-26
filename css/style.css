@@ -84,13 +84,12 @@ li{
 .right-banner{
     display: flex;
     align-items: center;
-    /* debug */
-    border: 1px solid black;
     width: 50%;
     justify-content: right;
 }
 
 .support{
+    display:flex;
     align-items: center;
     width: 65%;
     font-size: 15px ;
@@ -100,10 +99,9 @@ li{
     
 }
 
-.support li{
-    list-style-type: none;
+.login{
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
 }
 
 .inizia{
@@ -123,7 +121,7 @@ li{
 .lightblue-box{
     background-color: lightblue;
     padding: 15px;
-    height: 425px;
+   
 }
 
 h1{
@@ -148,16 +146,14 @@ h1{
     font-size: 16px;
 }
 .flex-info i{
-    margin-top: 20px;
+    margin-top: 100px;
     display: inline-block;
     font-size: large;
 }
 
 .flex-img{
     /* width: 70%; */
-    max-width: 70%;
-    
-    
+    max-width: 70%;    
 }
 
 .button-lightblue{
@@ -177,6 +173,7 @@ h1{
 
 h2{
     margin-top: 35px;
+    margin-bottom: 35px;
     text-align: left;
     max-width: 80%;
 }
@@ -197,7 +194,7 @@ h2{
 
 .card{
     border: 1px solid grey;
-    padding: 10px;
+    
     
 }
 
@@ -209,15 +206,25 @@ h2{
     
 }
 
+.vantaggi-piano{
+    padding: 10px;
+}
+
 
 .card ul{
     list-style-type: none;
     font-size: 15px;
 }
 
+.card-piano-list{
+    margin: 0;
+}
+
 /* TEAMBOX */
 .team-box{                      
     border: 1px solid grey;
+    text-align: left;
+    
 }
 
 
@@ -277,42 +284,41 @@ h2{
     gap: 20px;
     width: calc((100%-40px)/3);
     /* margin-top: 35px; */
-    padding: 35px;
+    padding: 25px;
 }
 
 
 
 .small-card{
-    width: 30%;
+    max-width: 30%;
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
-    
-}
-
-.small-card-img{
-    flex: 1;
-    max-width: 50%;
-    /* object-fit: scale-down; */
-
-}
-
-.small-card-txt{
-    max-width: 50%;
 
 }
 
 
 /* FOOTER */
-footer{
+.footer{
     background-color: black;
     color: white;
-    
+        
+}
+
+.footer ul li{
+    list-style-type: none;
+    margin-left: 0px;
+    font-weight: 1px;
+}
+
+.footer h4{
+    font-size: 20px;
 }
 
 .footer-box{
     display: flex;
     align-items: center;
-    justify-content: left;
+    justify-content: space-around;
+    padding: 20px;
+    
     
 }
