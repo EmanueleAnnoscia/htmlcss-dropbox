@@ -11,29 +11,44 @@ img{
     width: 100%;
 }
 
-.button
+ul{
+    list-style-type: none;
+}
 
 /* BODY */
 /* Header */
 
 .banner{
-    display: flex;
-    justify-content: space-around;
-    width: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 65px;
+
+
+    /* Debug */
+    border: 1px solid black;
 }
 
 /* LEFT BANNER */
 .left-banner{
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    /* debug */
+    border: 1px solid black;
 }
 
 .logo{
     width: 50%;
+    text-align: center;
+    /* debug */
+    border: 1px solid black;
+
 }
 
 .generics{
     width: 50%;
+    /* debug */
+    border: 1px solid black;
 }
 
 
@@ -41,9 +56,17 @@ img{
 
 .right-banner{
     display: flex;
-    flex-direction: column;
+    /* debug */
+    border: 1px solid black;
 }
 
+.support{
+    align-items: center;
+}
+
+.login{
+
+}
 
 /* MAIN */
 /* LIGHTBLUE-BOX */
@@ -77,3 +100,58 @@ img{
     border: 1px solid grey;
 }
 
+
+/* PARTNER BOX */
+.dual-column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.dual-column img {
+    max-width: 100%;
+    height: auto;
+    /* Maintain aspect ratio */
+    flex: 1 1 auto;
+    /* Allow images to grow and shrink */
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+.triple-column{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.triple-column img{
+
+    height: auto;
+    /* Maintain aspect ratio */
+    flex: 1 1 auto;
+    /* Allow images to grow and shrink */
+    object-fit: cover;
+}
+
+
+
+
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+.penta-column{
+    display: flex;
+    list-style-type: none;
+}
