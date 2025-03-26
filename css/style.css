@@ -37,8 +37,6 @@ img{
     height: 65px;
     max-width: 95%;
     margin: 0 auto;
-    /* Debug */
-    border: 1px solid black;
 }
 
 /* LEFT BANNER */
@@ -46,31 +44,27 @@ img{
     display: flex;
     align-items: center;
     width: 50%;
-    /* debug */
-    border: 1px solid black;
+
 }
 
 .logo{
     width: 20%;
     text-align: center;
-    /* debug */
-    border: 1px solid black;
+
 
 }
 
 .generics{
     width: 65%;
     font-size: 15px;
-    /* debug */
-    border: 1px solid black;
+
 }
 
 .generics ul{
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: center;
-    text-decoration: none; */
+
     
 }
 
@@ -181,11 +175,13 @@ h2{
 
 /* FLEX PIANI DI ABBONAMENTO */
 .solution{
-    margin: 35px;
+    max-width: 80%;
+    margin: 0 auto;
     display: flex;
     justify-content: space-around;
     gap: 20px;
     width: calc((100%-40px)/2);
+    margin-top: 35px;
     
 
 
@@ -221,12 +217,30 @@ h2{
 }
 
 /* TEAMBOX */
-.team-box{                      
+.team-box{
+    max-width: 80%;
+    margin: 0 auto;                      
     border: 1px solid grey;
-    text-align: left;
-    
+    margin-bottom: 80px;
+    position: relative;
+    margin-top: 50px;
+
 }
 
+.team-button{
+    position:absolute;
+    right: 10px;
+    top: 85px;
+}
+
+.team-box h4, p, h5{
+    margin: 20px 0px 10px 10px;
+    line-height: 20px;
+}
+
+.title-team{
+    text-align: center;
+}
 
 /* PARTNER BOX */
 .partner-box {
@@ -236,7 +250,7 @@ h2{
     max-width: 80%;
     justify-content: center;
     align-items: center;
-    margin: 60px 0px;   
+    margin: 0 auto;   
 }
 
 .partner-img{
@@ -301,6 +315,7 @@ h2{
 .footer{
     background-color: black;
     color: white;
+   
         
 }
 
@@ -319,6 +334,14 @@ h2{
     align-items: center;
     justify-content: space-around;
     padding: 20px;
+    max-width: 80%;
+    margin: 0 auto;
     
-    
+}
+
+.second-footer{
+    margin: 0 auto;
+    max-width: 80%;
+    height: 60px;
+    padding: 15px;
 }
