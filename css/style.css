@@ -11,20 +11,30 @@ img{
     width: 100%;
 }
 
-ul{
-    list-style-type: none;
+.button-blue{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    
+
+}
+
+.grey-button{
+    background-color: white;
+    border: 1px solid gray;
+    padding: 10px;
 }
 
 /* BODY */
 /* Header */
 
 .banner{
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        height: 65px;
-
-
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 65px;
+    max-width: 95%;
+    margin: 0 auto;
     /* Debug */
     border: 1px solid black;
 }
@@ -33,12 +43,13 @@ ul{
 .left-banner{
     display: flex;
     align-items: center;
+    width: 50%;
     /* debug */
     border: 1px solid black;
 }
 
 .logo{
-    width: 50%;
+    width: 20%;
     text-align: center;
     /* debug */
     border: 1px solid black;
@@ -46,38 +57,93 @@ ul{
 }
 
 .generics{
-    width: 50%;
+    width: 65%;
+    font-size: 15px;
     /* debug */
     border: 1px solid black;
 }
 
+.generics ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center;
+    text-decoration: none; */
+    
+}
+
+li{
+
+    margin: 10px;
+}
 
 /* RIGHT BANNER */
 
 .right-banner{
     display: flex;
+    align-items: center;
     /* debug */
     border: 1px solid black;
+    width: 50%;
+    justify-content: right;
 }
 
 .support{
     align-items: center;
+    width: 65%;
+    font-size: 15px ;
+    /* debug */
+    border: 1px solid black;
+    
 }
 
-.login{
+.support li{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inizia{
+    text-decoration: none;
+    color: white;
+}
+
+.accedi{
+    text-decoration: none;
+
 
 }
 
-/* MAIN */
+/* MAIN */  
 /* LIGHTBLUE-BOX */
-.general-width{
-    max-width: 80%;
-    margin: 0 auto;
-}
 
 .lightblue-box{
     background-color: lightblue;
     max-width: 100%;
+}
+
+.lightblue-flex{
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.button-lightblue{
+    margin: 20px 0px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+/* CONTAINER */
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.container h2 button a{
+    text-align: left;
 }
 
 /* FLEX PIANI DI ABBONAMENTO */
@@ -85,73 +151,110 @@ ul{
     display: flex;
     margin: 35px;
 
+
 }
 
 .card{
     border: 1px solid grey;
 }
 
-.members{
-    /* border: 1px solid grey; */
-}
-
 /* TEAMBOX */
-.team-box{
+.team-box{                      
     border: 1px solid grey;
 }
 
 
 /* PARTNER BOX */
-.dual-column {
+.partner-box {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-direction: column;
+    flex-wrap: wrap; */
+    max-width: 80%;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    margin: 60px 0px;   
 }
 
-.dual-column img {
-    max-width: 100%;
-    height: auto;
-    /* Maintain aspect ratio */
-    flex: 1 1 auto;
-    /* Allow images to grow and shrink */
-    object-fit: cover;
+.partner-img{
+    width: 60%;
 }
 
+.partner-info{
+    text-align: center;
+    width: 40%;
+    padding: 25px;
+    
+    
+}
+
+.partner-info h3{
+    margin: 30px;
+    font-size: 25px;
+    text-align: left;
+}
+
+.partner-info p{
+    text-align: left;
+    margin: 30px;
+    font-size: 15px;
+}
+
+.partner-info button{
+    color: gray;
+    border: 1px solid gray;
+    background-color: white;
+    font-size: 18px;
+    padding: 10px;
+}
+
+/* FINE PARTNER BOX */
 
 
 
+/* INFO CARD BOX */
 
-
-
-.triple-column{
+.info-card-box{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
-
-.triple-column img{
-
-    height: auto;
-    /* Maintain aspect ratio */
-    flex: 1 1 auto;
-    /* Allow images to grow and shrink */
-    object-fit: cover;
+    justify-content: space-between;
+    gap: 20px;
+    width: calc((100%-40px)/3);
+    /* margin-top: 35px; */
+    padding: 35px;
 }
 
 
 
+.small-card{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+.small-card-img{
+    flex: 1;
+    max-width: 50%;
+    /* object-fit: scale-down; */
+
+}
+
+.small-card-txt{
+    max-width: 50%;
+
+}
 
 
+/* FOOTER */
 footer{
     background-color: black;
     color: white;
 }
 
-.penta-column{
+.footer-box{
     display: flex;
+    align-items: center;
+    justify-content: left;
     list-style-type: none;
 }
