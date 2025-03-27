@@ -239,8 +239,14 @@ h2{
 
 .card{
     border: 1px solid  rgb(172, 172, 172);
+    padding: 10px;
+    line-height: 40px;
     
     
+}
+
+.card ul{
+    line-height: 20px;
 }
 
 .members{
