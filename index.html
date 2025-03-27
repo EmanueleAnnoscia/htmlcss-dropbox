@@ -62,8 +62,16 @@
 
         <div class="container">
             <h2>Trova il Piano business che fa per te</h2>
-            <button class="radio-button">fatturazione mensile</button>
-            <button class="radio-button">fatturazione annuale</button>
+            <div class="billing-options">
+                <label>
+                    <input type="radio" name="billing" value="monthly" checked>
+                    Fatturazione mensile
+                </label>
+                <label>
+                    <input type="radio" name="billing" value="annual">
+                    Fatturazione annuale
+                </label>
+            </div>
 
             <div class="solution">
                 <div class="card">
@@ -94,16 +102,16 @@
                 </div>
 
                 <div class="card">
-                    <div class="members">Singolo</div>
+                    <div class="members">Team</div>
                     <div class="vantaggi-piano">
-                        <h3>Professional</h3>
+                        <h3>Advanced</h3>
 
-                        <p>€ 12.00 <br> /al mese</p>
+                        <p>€ 18.00 <br> /utente/al mese</p>
 
-                        <ul>
-                            <li> <i class="fa fa-solid fa-user"></i>  1 utente</li>
-                            <li> <i class="fa fa-solid fa-folder"></i>  5 TB di spazio di archiviazione sicuro</li>
-                            <li> <i class="fa fa-solid fa-share-nodes"></i>  Funzioni di produttività premium e condivisione semplice e sicura</li>
+                        <ul class="card-piano-list">
+                            <li> <i class="fa fa-solid fa-user"></i>  3 o più utenti</li>
+                            <li> <i class="fa fa-solid fa-folder"></i>  Tutto lo spazio di cui ha bisogno il tuo team</li>
+                            <li> <i class="fa fa-solid fa-share-nodes"></i>  Sofisticate funzioni di controllo per tenere al sicuro tutti i file del tuo team</li>
                         </ul>
 
                         <a href="" class="button-blue inizia"> Prova gratis per 30 girni</a>
@@ -113,15 +121,18 @@
 
                         <h4>Punti salienti del piano</h4>
                         <ul class="card-piano-list">
-                            <li>&check;Invia file fino a 100 GB con Dropbox Transfert</li>
+                            <li>&check; Nessun limite di spazio per i file </li>
                             <li>&check;Cartelle offline su dispositivi mobili</li>
+                            <li>&check;Risparmio del 50% rispetto alle iscrizioni singole</li>
+                            <li>&check;Possibilità di inserire nuovi membri del team</li>
+                            <li>&check;Gestione dei permessi in base ai ruoli</li>
 
                         </ul>
                     </div>
                 </div>
 
                 <div class="card">
-                    <div class="members">Singolo</div>
+                    <div class="members">Advanced</div>
                     <div class="vantaggi-piano">
                         <h3>Professional</h3>
 
@@ -140,8 +151,9 @@
 
                         <h4>Punti salienti del piano</h4>
                         <ul class="card-piano-list">
-                            <li>&check;Invia file fino a 100 GB con Dropbox Transfert</li>
+                            <li>&check;Servizio di assistenza 24h</li>
                             <li>&check;Cartelle offline su dispositivi mobili</li>
+                            <li>&check;Possibilità di personalizzazione totale</li>
 
                         </ul>
                     </div>
