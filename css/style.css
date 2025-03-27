@@ -366,6 +366,10 @@ h2{
 
 }
 
+.small-card h4{
+    padding: 10px;
+}
+
 
 /* FOOTER */
 .footer{
