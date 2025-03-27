@@ -12,13 +12,26 @@ img{
 }
 
 .button-blue{
-    background-color: blue;
+    background-color: rgb(17, 0, 255);
     color: white;
     padding: 10px;
     font-size: 13px;
     
-
 }
+
+/* .hbb{
+    background-color: rgb(17, 0, 255);
+    /* display: none; */
+}
+
+.button-blue:hover{
+    display: block;
+}
+
+.button-blue:hover .hbb{
+    display: block;
+} */
+
 
 .grey-button{
     background-color: white;
@@ -31,6 +44,12 @@ h2{
     margin-left: 25px;
     margin-top: 35px;
 }
+
+.col-30{
+    width: 30%;
+}
+
+
 
 /* BODY */
 /* Header */
@@ -239,14 +258,27 @@ h2{
 
 .card{
     border: 1px solid  rgb(172, 172, 172);
-    padding: 10px;
-    line-height: 40px;
+    padding: 8px;
+    line-height: 35px;
     
     
 }
 
+.unorder-list li{
+    display: flex;
+    align-items: flex-start;
+}
+
+.unorder-list i{
+    margin-right: 8px;
+
+}
+
+
 .card ul{
     line-height: 20px;
+
+    
 }
 
 .members{
@@ -288,9 +320,10 @@ h2{
     top: 85px;
 }
 
-.team-box h4, p, h5{
-    margin: 20px 0px 10px 10px;
+.team-box h4, .team-box p, .team-box h5{
     line-height: 20px;
+    margin: 20px;
+    margin-left: 15px;
 }
 
 .title-team{
@@ -375,7 +408,7 @@ h2{
 .footer{
     background-color: black;
     color: white;
-    margin-top: 20px;
+    margin-top: 60px;
         
 }
 
@@ -397,6 +430,10 @@ h2{
     max-width: 80%;
     margin: 0 auto;
     
+}
+
+.footer hr{
+    margin-left: 150px;
 }
 
 .second-footer{
