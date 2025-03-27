@@ -314,6 +314,13 @@ h2{
 
 }
 
+.team-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    flex-direction: column;
+}
+
 .team-button{
     position:absolute;
     right: 10px;
